@@ -3,7 +3,7 @@ Munin_Windows_Install
 
 1> Clone the munin setup for windows from github.
 
-2> Unzip the file and run the msi installer.
+2> Run the msi installer.
 
 3> Then go to the path where the setup has been installed and in the "munin-node" file delete all the configuration and add the below configuration to the file.
 
