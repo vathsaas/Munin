@@ -1,11 +1,4 @@
 #!usr/bin/sh -x
-echo "*******************************Adding Repositories******************************************"
-
-zypper ar "ftp://amdc-linuxmgmt-lx01.amdc.mckinsey.com/suse/updates/\$RCE/SLE11-SDK-SP1-Pool/sle-11-x86_64/" temp
-zypper ar "http://amdc-puppet-lx01.amdc.mckinsey.com/repo/common/" puppet
-zypper ar "ftp://amdc-linuxmgmt-lx01.amdc.mckinsey.com/suse/updates/\$RCE/SLES11-SP1-Updates/sle-11-x86_64/" updates
-zypper ar "ftp://amdc-linuxmgmt-lx01.amdc.mckinsey.com/suse/updates/$RCE/SLES11-Extras/sle-11-x86_64" SLES11-Extras
-echo "*********************************************************************************************"
 cd /root
 `mkdir rpm`
 echo "Created directory rpm"
