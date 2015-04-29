@@ -103,7 +103,7 @@ c=`nslookup $b.amdc.mckinsey.com | tail -2 | head -1 | cut -d " " -f2`
 echo "host $c">1.txt
 
 sed -i.bak -e '35,36d;50d' munin-node.conf
-
+#In the below line please change the IP address to the Munin-Master server IP
 echo "allow ^157\.191\.164\.135$" >> 2.txt
 echo "allow ^::1$" >> 2.txt
 
