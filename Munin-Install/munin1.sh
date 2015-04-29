@@ -1,3 +1,4 @@
+#This is an automated script for installing Munin on SUSE Linux
 #!usr/bin/sh -x
 cd /root
 `mkdir rpm`
