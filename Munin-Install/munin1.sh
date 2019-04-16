@@ -94,13 +94,13 @@ echo "******************************************Installing packages*************
 
 echo "********************************************Done***********************************************************"
 
-`scp root@dev-utility-lx08.amdc.mckinsey.com:/etc/init.d/munin-node /etc/init.d/`
+`scp root@dev-utility-lx08.amdc.com:/etc/init.d/munin-node /etc/init.d/`
 cd /etc/opt/munin/
 #echo "Enter the IP address of the server "
 #read b
 
 b=`hostname`
-c=`nslookup $b.amdc.mckinsey.com | tail -2 | head -1 | cut -d " " -f2`
+c=`nslookup $b.amdc.com | tail -2 | head -1 | cut -d " " -f2`
 echo "host $c">1.txt
 
 sed -i.bak -e '35,36d;50d' munin-node.conf
