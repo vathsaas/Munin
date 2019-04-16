@@ -11,7 +11,7 @@ echo "Created group munin"
 echo "Created user munin"
 `mkdir -p /home/munin`
 
-#`scp -r root@dev-utility-lx08.amdc.mckinsey.com:/root/rpm/munin-2.0.11.zip /root/rpm/`
+#`scp -r root@dev-utility-lx08.amdc.com:/root/rpm/munin-2.0.11.zip /root/rpm/`
 
 cd /root/rpm/
 wget http://sourceforge.net/projects/munin/files/stable/2.0.11/munin-2.0.11.1.tar.gz/download
